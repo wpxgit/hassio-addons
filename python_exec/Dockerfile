@@ -7,6 +7,8 @@ ENV LANG C.UTF-8
 RUN apk add --no-cache \
         build-dependencies \
         build-base \
+	libc-dev \
+	g++ \
         gcc \
     	jq \
         py-pip \
