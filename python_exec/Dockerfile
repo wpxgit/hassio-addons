@@ -19,6 +19,7 @@ RUN apk add --no-cache jq \
  && pip install -U virtualenv
 
 # Copy data for add-on
+RUN adduser hass gpio
 COPY run.sh /
 RUN chmod a+x /run.sh
 
