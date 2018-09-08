@@ -1,6 +1,6 @@
 {
     "name": "Python Executor wpxgit",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "slug": "python_exec",
     "image": "wpxgit/{arch}-python-exec",
     "description": "Python executor",
