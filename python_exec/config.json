@@ -2,7 +2,7 @@
     "name": "Python Executor wpxgit",
     "version": "0.1.4",
     "slug": "python_exec",
-    "image": "bestlibre/{arch}-python-exec",
+    "image": "wpxgit/{arch}-python-exec",
     "description": "Python executor",
     "url": "https://github.com/wpxgit/hassio-addons/blob/master/python_exec",
     "startup": "application",
