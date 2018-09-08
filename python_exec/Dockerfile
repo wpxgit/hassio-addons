@@ -4,13 +4,12 @@ FROM $BUILD_FROM
 # Add env
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache \
-        build-dependencies \
-        build-base \
-	libc-dev \
-	g++ \
-        gcc \
-    	jq \
+RUN apk add --no-cache build-dependencies
+RUN apk add build-base
+RUN apk add libc-dev
+RUN apk add g++
+RUN apk add gcc
+RUN apk add --no-cache jq \
         py-pip \
 	python \
 	python-dev \
