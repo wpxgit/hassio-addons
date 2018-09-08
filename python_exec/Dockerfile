@@ -4,8 +4,7 @@ FROM $BUILD_FROM
 # Add env
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache build-dependencies
-RUN apk add build-base
+RUN apk add --no-cache build-base
 RUN apk add libc-dev
 RUN apk add g++
 RUN apk add gcc
