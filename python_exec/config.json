@@ -7,6 +7,7 @@
     "url": "https://github.com/wpxgit/hassio-addons/blob/master/python_exec",
     "startup": "application",
     "boot": "auto",
+    "gpio": true,
     "ports": {"8080/tcp": null},
     "options": {"code": null,
 	        "requirements": []},
